@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+
+body {
+  background-color: #E9E9E9;
+}
+/*======header======*/
+header {
+  border-bottom: 2px solid #888;
+}
+
+h1 {
+  width: 300px;
+  font-size: 45px;
+  padding: 50px;
+  margin: 0 auto;
+  font-family: 'Shrikhand', sans-serif;
+  color: #555;
+}
+
+.top_pics {
+  margin-bottom: 20px;
+}
+
+.top_navlist {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: 0 auto 20px;
+}
+
+.top_navlist li {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.top_navlist li:hover {
+  border-bottom: 2px solid #888;
+  margin-bottom: -5px;
+}
+
+
+/*======main======*/
+/*------title------*/
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  width: 500px;
+  height: 150px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.title h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #555;
+}
+
+
+/*------section------*/
+.section {
+  margin: 0 auto 100px;
+}
+
+.section h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+/*======footer======*/
+footer h1 {
+  position: absolute;
+  padding-left: 100px;
+  color: #fff;
+}
+
+footer {
+  background-color: #888;
+  height: 250px;
+  text-align: start;
+}
+
+.link {
+  display: flex;
+  width:900px;
+  margin: 0 0 0 auto;
+}
+
+.link ul {
+  padding: 20px;
+  margin: 20px;
+  border-left: 2px solid #555;
+}
+
+.link ul li a {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+.link .page{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.copy{
+  text-align: center;
+  margin: 10px;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*======top======*/
+.subtitle_list {
+  margin-top: 50px;
+}
+
+.list_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.list_container ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 20px;
+}
+
+.list_container ul li {
+  width: 300px;
+  height: 300px;
+  background: #000;
+  position: relative;
+}
+
+.list_container ul li .img img {
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.list_container ul li .subtitle {
+  width: 280px;
+  height: 280px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid #ededed;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 20;
+  color: #fff;
+}
+
+.list_container ul li .subtitle p {
+  text-align: center;
+  position: relative;
+  top: 90px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+
+/*何かクリックできるよー！ってわかるものつけたい
+
+/*======section======*/
+.section {
+  width: 90%;
+  margin: 0 auto 100px;
+}
+
+.section h3 {
+  margin-bottom: 30px;
+}
+
+.foreign_container, .guest_container, .live_container {
+  display: flex;
+  justify-content: center;
+}
+
+.foreign_container .text, .guest_container .text, .live_container .text {
+  width: 40%;
+  background: #f9f9f9;
+  padding: 25px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.foreign_container img, .guest_container img, .live_container img {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+.text a {
+  display: block;
+  text-align: end;
+  font-size: 15px;
+}
+
+.text a:hover {
+  color: #c0414b;
+}
+
+.text .more {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.text .moreodd {
+  position: absolute;
+  top: 200px;
+  left: 230px;
+}
+
+strong {
+  font-weight: bold;
+  color: #555;
+  background: linear-gradient(transparent 60%, #fe9);
+}
+
+

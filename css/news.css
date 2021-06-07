@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/*======2column======*/
+ .news_container{
+  display: flex;
+}
+
+.article_sections {
+  width: 80%;
+}
+
+.article_link {
+  width: 20%;
+}
+
+/*------article------*/
+.section {
+  width: 80%;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ddd;
+}
+
+.article_top {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.article_top .article_date {
+  background: #555;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.article_top .article_date p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.article_title {
+margin-top: 30px;
+}
+
+.article_ttlcat .article_cat {
+  display: inline-block;
+  color: #fff;
+  background: maroon;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.article_top .article_ttlcat {
+  margin-left: 20px;
+}
+
+.article_top h3 {
+  font-size: 28px;
+  font-weight: normal;
+  border-bottom: 2px solid #999;
+}
+
+.article_main img {
+  display: block;
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.main_content {
+  word-break: break-all;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.news_next {
+  display: block;
+  width: 130px;
+  margin: 0 auto 30px;
+  background-color: #c0414b;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.news_next:hover {
+  background: #a0373f;
+}
+
+.news_next:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+
+
+/*------article_link------*/
+.article_link {
+  border-left: 2px solid #ccc;
+}
+
+.article_link h4 {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+
+.article_link ul {
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.article_link nav ul li {
+  padding-top: 30px;
+  padding-left: 10px;
+  /* list-style: disc; */
+  list-style-position: inside;
+}
+
+.article_link nav ul li:nth-of-type(7){
+  list-style: none;
+}
+
+.article_link nav ul li a {
+  font-size: 14px;
+}
+
+.article_link nav ul li a:hover {
+  color: maroon;
+  border-bottom: 1px solid maroon;
+}
